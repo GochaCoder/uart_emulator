@@ -8,7 +8,7 @@ EmulatedDevice::EmulatedDevice(QObject *parent)
     , m_periodicTimer(new QTimer(this))
     , m_ledState(false)
     , m_temperature(24.5)
-    , m_emulationEnabled(true)                 // по умолчанию эмуляция включена
+    , m_emulationEnabled(false)
 {
     connect(m_serialPort, &QSerialPort::readyRead, this, &EmulatedDevice::handleReadyRead);
     connect(m_serialPort, &QSerialPort::errorOccurred, this, &EmulatedDevice::handleError);
@@ -61,14 +61,14 @@ void EmulatedDevice::sendData(const QByteArray &data)
     if (m_serialPort->isOpen()) {
         m_serialPort->write(data);
         m_serialPort->flush();
-        emit dataSent(data);                     // сообщаем GUI об отправке
+        emit dataSent(data);
     }
 }
 
 void EmulatedDevice::handleReadyRead()
 {
     QByteArray data = m_serialPort->readAll();
-    emit dataReceived(data);                      // отправляем сырые данные в GUI
+    emit dataReceived(data);
 
     if (m_emulationEnabled) {
         m_buffer.append(data);
