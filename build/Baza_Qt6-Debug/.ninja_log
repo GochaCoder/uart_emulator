@@ -1,9 +1,0 @@
-# ninja log v7
-13	870	7953980950928189	uart_emulator_autogen/timestamp	73edf8542200bcf7
-13	870	7953980950928189	uart_emulator_autogen/mocs_compilation.cpp	73edf8542200bcf7
-13	870	7953980950928189	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/timestamp	73edf8542200bcf7
-13	870	7953980950928189	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/mocs_compilation.cpp	73edf8542200bcf7
-874	2763	7953980951571757	CMakeFiles/uart_emulator.dir/uart_emulator_autogen/mocs_compilation.cpp.obj	3e367ac96ac76060
-879	2852	7953980951625279	CMakeFiles/uart_emulator.dir/main.cpp.obj	f8a953dbf5257dd5
-884	3074	7953980951673093	CMakeFiles/uart_emulator.dir/emulateddevice.cpp.obj	fdb51061cb1528fb
-3075	3278	7953980973570318	uart_emulator.exe	918f5068a8118e33
