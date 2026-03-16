@@ -1,0 +1,22 @@
+# ninja log v7
+20	1217	7953990072945921	uart_emulator_autogen/timestamp	8eb50c66388247ce
+20	1217	7953990072945921	uart_emulator_autogen/mocs_compilation.cpp	8eb50c66388247ce
+20	1217	7953990072945921	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/timestamp	8eb50c66388247ce
+20	1217	7953990072945921	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/mocs_compilation.cpp	8eb50c66388247ce
+1229	4232	7953990073741247	CMakeFiles/uart_emulator.dir/main.cpp.obj	a32565f3e084e66e
+1235	4309	7953990073791231	CMakeFiles/uart_emulator.dir/emulateddevice.cpp.obj	cd35ed63a8d889ff
+1223	4521	7953990073681279	CMakeFiles/uart_emulator.dir/uart_emulator_autogen/mocs_compilation.cpp.obj	3e367ac96ac76060
+57	305	7953990643536948	uart_emulator_autogen/timestamp	8eb50c66388247ce
+57	305	7953990643536948	uart_emulator_autogen/mocs_compilation.cpp	8eb50c66388247ce
+57	305	7953990643536948	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/timestamp	8eb50c66388247ce
+57	305	7953990643536948	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/mocs_compilation.cpp	8eb50c66388247ce
+305	3706	7953990646011976	CMakeFiles/uart_emulator.dir/mainwindow.cpp.obj	182cedec11583803
+3707	4427	7953990680026519	uart_emulator.exe	b027ebddc253a0f1
+41	967	7953994611295573	uart_emulator_autogen/timestamp	8eb50c66388247ce
+41	967	7953994611295573	uart_emulator_autogen/mocs_compilation.cpp	8eb50c66388247ce
+41	967	7953994611295573	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/timestamp	8eb50c66388247ce
+41	967	7953994611295573	D:/CCode/QtProjects/uart_emulator/uart_emulator/build/Baza_Qt6-Debug/uart_emulator_autogen/mocs_compilation.cpp	8eb50c66388247ce
+972	3221	7953994611910696	CMakeFiles/uart_emulator.dir/main.cpp.obj	a32565f3e084e66e
+967	3461	7953994611860715	CMakeFiles/uart_emulator.dir/uart_emulator_autogen/mocs_compilation.cpp.obj	3e367ac96ac76060
+977	3951	7953994611950706	CMakeFiles/uart_emulator.dir/mainwindow.cpp.obj	182cedec11583803
+3952	4231	7953994641708297	uart_emulator.exe	b027ebddc253a0f1
