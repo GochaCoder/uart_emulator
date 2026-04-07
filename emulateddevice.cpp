@@ -128,6 +128,10 @@ void EmulatedDevice::processCommand(const QByteArray &cmd)
         response = "Stop emitting\r\n";
         m_emitt = false;
     }
+    else if (cmd == "zero") {
+        response = "set zero\r\n";
+        m_angle = 0.0;
+    }
     else {
         response = "Unknown command\r\n";
     }
@@ -145,7 +149,7 @@ void EmulatedDevice::sendPeriodicData()
             //qDebug() << "Угол=" << m_angle << "Скорость=" << m_speed << "Шаг=" << step;
         }
 
-        int dist = 0;
+        int dist = m_emitt ? 0 : -1;
         if (m_emitt) {
             // Ищем первую зону, в которую попадает текущий угол
             for (const DetectionZone &zone : m_zones) {
